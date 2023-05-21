@@ -7,7 +7,7 @@
 const descargasUnoDos = ["Destroy All Monsters - 1974/1976", "DJ Tron - Fucking Hardcore", "DJ Vertigo - Sonic", "Doctor Head's World Tower - Flipper's Guitar", "God - The Anatomy of Addiction", "John Zorn - Naked City", "Les Rallizes Dénudés - Heavier than a Death in the Family", "Nang Nang", "SpaceGhostPurrp - VENENO", "Spiral Tribe - Tecno Terra", "telepath - Seikan Seikou", "Third Door from the Left - Face the Firing Squad", "Throbbing Gristle - CD1", "Tommy Wright III - Runnin' N Gunnin'", "Tatsuro Yamashita - Ride on Time", "Susumu Hirasawa - Aurora", "Susumu Hirasawa - Kenja no Propeller", "3 Segundos antes Da Queda - SADQ", "Aart Zwaans - Semi Hora", "Argon - Kone Kertoo", "Bogan Wytch - Nang Hexed...", "Boredoms - Super ae", "Boris Dzaneck - Boris Dzaneck", "Café Tacvba - Revés/Yo Soy", "Cindy Lee - Age of Tenderness", "Clotta Lanzetta - Fashion x Clotta", "Corviria - Psyco Analysis", "Dr. Dre - The Chronic", "Gerry and the Holograms - Gerry and the Holograms", "Hedge Wizard - More True Than Time Thought", "Blod Besvimelse x Heroin Makes Happy Collab", "John Zorn - Cobra", "The Martian - LBH-6251876: A Red Planet Compilation", "Patricia Taxxon - Fymynob", "Rainer - Petscop Soundtrack", "Pilotredsun", "Snoop Doggy Dogg - Doggystyle", "Tiny Mouse - Tiny Adventures", "Tom Ellard - 80s Cheesecake", "Vinterriket", "Wendy Carlos - Clockwork Orange", "Staruha Mha - Fires", "猫 シ Corp. - Palm Mall Mars"]
 
 const pickUnoDos = descargasUnoDos[Math.floor(Math.random()*descargasUnoDos.length)]
-console.log("Descargas Parte 1 / 2 - - - >", pickUnoDos)
+console.log("Descargas [1 / 2] - - - >", pickUnoDos)
 
 const espacio = "- - - - -"
 
@@ -17,7 +17,7 @@ console.log(espacio)
 const descargasTres = ["Neil Young - Harvest", "Aine O'Dwyer - Music For Church Cleaners", "Basking Sharks - Shark Island", "Bernd Kistenmacher - Romantic Times", "Bernd Kistenmacher - Wake Up in the Sun", "Bizarre Ko.Ko.Ko - 00Time", "Bugger West", "Clock-DVA - Man-Amplified", "Depressive Silence - The Darkened Empires", "DJ Sprinkles - Midtown 120 Blues", "Frank Klare - Moods", "Hot Chang - The True Totality of Chang", "Ilyas Ahmed - Between Two Skies", "In Mirrors - Escape from Berlin", "Intolerance - Intolerance", "James Ferraro - Heaven's Gate" - "James Ferraro - WENQUAN", "The Klingons - Analog-Digital", "Lead Belly - Negro Sinful Songs", "Little Richard - Little Richard", "Mark Lane - Who's Really Listening?", "Mark Shreeve - Ursa Major", "Mark Shreeve - Assassin", "Michal Turtle - Music from the Living Room", "Münn - Selbstmordwald", "Park Zero - M", "Purzum - Filosofeline", "Rhys Chatham - Factor X", "Ron Berry - Where Dark Forces Meet", "Ron Berry - The Reaper", "Sacred Tapestry - Shader", "Terry Riley - In C", "A Safe Substitute - Storm Bugs", "Thoughts on Air - Mallo Yallo", "Tuluum Shimmering - These Flowers In Dawn's Twilight At Illusion Temple", "Tuluum Shimmering - In the Great Swamp You Were Conceived", "Dungeon Rap - The Introduction (Various Artists)", "Remote Viewing: Vol. 2 (Various Artists)", "RadioNome (Various Artists)", "Antarctica (Various Artists)", "Velvet Acid Christ - Calling Ov the Dead", "Wrangler - A Situation", "X-Cetra - Stardust", "Xyl - Nuclear Winter", "Y Pants - Beat It Down", "Zanov - In Course of Time", "Fushitsusha - Pathetiqué", "Mariya Takeuchi - Variety", "Paul Robeson - Spirituals", "1992 Cool Runnings", "T.J. Hustler's Metaphysical Synthesized Orchestra - Age of Individualism", "Native Brazilian Music Vol. 1 (Various Artists)"]
 
 const pickTres = descargasTres[Math.floor(Math.random()*descargasTres.length)]
-console.log("Descargas Parte 3 - - - >", pickTres)
+console.log("Descargas [3] - - - >", pickTres)
 
 console.log(espacio)
 console.log(espacio)
@@ -25,7 +25,7 @@ console.log(espacio)
 const descargasCuatro = ["P.D. - Inweglos", "Babylon Joke - Giga", "Krankmusik - Krankmusik", "Woody Guthrie - Woody Guthrie", "Ground-Zero - Revolutionary Pekinese Opera ver 1.2.8", "No Unauthorized - Invasion", "Nomeansno - Wrong"]
 
 const pickCuatro = descargasCuatro[Math.floor(Math.random()*descargasCuatro.length)]
-console.log("Descargas Parte 4 - - - >", pickCuatro)
+console.log("Descargas [4] - - - >", pickCuatro)
 
 console.log(espacio)
 console.log(espacio)
@@ -35,10 +35,15 @@ const descargasCincoUno = ["6.3 - Humeur & Molecules", "3tot - Ich und du", "A G
 const descargasCincoDos = ["Berthold Weis Band / Confidentiel Périodique", "Risky Business Soundtrack", "Vivian Stanshall - Sir Henry at Rawlinson End", "Walrus", "The Wicked Farleys - Make It It", "Bacchia Neraida", "Mahk - LV", "Yuri Morozov - The Inexplicable", "Battle Garegga OST", "Joe Hisashi", "Susumu Hirasawa - PHONON LIVE", "9.0Megathrust", "Nobue Kawana", "NEWS AT 11", "Ecophony Rinne", "Sharpnel vs Project Gabbangelion"]
 
 const pickCincoUno = descargasCincoUno[Math.floor(Math.random()*descargasCincoUno.length)]
-console.log("Descargas Parte 5 [1] - - - >", pickCincoUno)
+console.log("Descargas [5.1] - - - >", pickCincoUno)
 
 const pickCincoDos = descargasCincoDos[Math.floor(Math.random()*descargasCincoDos.length)]
-console.log("Descargas Parte 5 [2] - - - >", pickCincoDos)
+console.log("Descargas [5.2] - - - >", pickCincoDos)
 
 console.log(espacio)
 console.log(espacio)
+
+const SpotifyOne= ["2003 Toyota Corolla", "Autechre - Tri Repetae", "Aziza Jalal", "black midi - Schlagenheim", "Mos Def & Talib Kwani - Black Star", "Bowery Electric - Beat", "Butthole Surfers - Psychic... Powerless... Another Man's Sac", "Carambolage", "Carly Rae Jepsen - Emotion", "Charly García - Say No More", "Cheshyre", "Cos - Viva Boma", "Daniel Johnston - Yip Jump Music", "Daniel Johnston - 1990", "Dead Kennedys - Frankenchrist", "Death - Human", "Depeche Mode - Violator", "DJ Screw - 3 in the Mornin' Part Two", "Don Salsa - Koolaide Moustache in Jonestown", "Doris Norton - Artificial Intelligence", "Super Discount", "Flema (Yin Yang)", "Frank Sinatra - Sings for Only the Lonely", "Frank Sinatra - Watertown", "German Shepherds - Music for Sick Queers", "Gil-Scott Heron - Pieces of a Man", "Giradioses - Dormitorio", "Haruomi Hosono - HOSONO HOUSE", "Hella - Hold Your Horse Is", "James Ferraro - Far Side Virtual", "Javiera Mena - Esquemas juveniles", "Lalleeshwari", "Lily Chou-Chou", "Spinetta - Kamikaze", "Manic Street Preachers - The Holy Bible", "Massive Attack - Blue Lines", "Mercedes Sosa - Con Sabor a Mercedes Sosa", "Michael Hoenig - Departure from the Northern Wasteland", "Milton Nascimento - Milton", "Milton Nascimento - Minas", "Milton Nascimento - Gerais", "Narcosis - Primera Dosis", "Nine Inch Nails - The Fragile", "Nortfalke - Atmosfeer", "Offermose - Stilhedens Tarn", "Paraf", "Philip Glass - Koyaanisqatsi", "Playboi Carti - Die Lit", "Polvo - Exploded Drawing", "The Product - Alive Again", "PSY - Psy from the Psycho World!", "Ross from Friends - Tread", "Rush - Moving Pictures", "Severed Heads - City Slab Horror", "Sheena Ringo (Taza)", "Sonic Dragolgo - My Sweet Honey Bunny", "Sparks - Kimono My Dear", "The Stalin - Stop Jap", "Nocturbulous Behavior - The Mix", "Type O Negative - Bloody Kisses", "The United States of America", "Van Morrison - Astral Weeks", "Yasuo Sugibayashi - The Mask of the Imperial Family", "ZaZa", "2+2=5, Into the Future...", "Angelo Badalamenti - Twin Peaks OST", "Automatic - Signal", "Biosphere - Substrata", "Belbury Poly - The Willows", "Brian Hodgson - KPM 1000", "Brian Eno - Ambient 4: On Land", "Ceres & Calypso", "Catherine Mercy", "The Cat's Miaow 94 - 98", "Cluster & Eno", "Croatian Amor - Genitalia Garden", "DAF - DAF", "Delroy Edwards - Hangin' at the Beach", "Detachments - Detachments", "Disasterpiece - Level", "Diseño Corbusier", "DJ Rozwell", "Dr. Alimantado - Best Dressed Chicken in Town"]
+
+const pickSpotifyOne = SpotifyOne[Math.floor(Math.random()*SpotifyOne.length)]
+console.log("Spotify [1] - - - >", pickSpotifyOne)
