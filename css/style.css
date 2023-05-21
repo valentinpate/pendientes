@@ -1,0 +1,8 @@
+body{
+    background-color:darkseagreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2:hover{
+    text-decoration:underline;
+}
