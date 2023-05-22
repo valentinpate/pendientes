@@ -111,4 +111,4 @@ const pickrym = rym[Math.floor(Math.random()*rym.length)]
 console.log("RYM [1.1] - - - >", pickrym)
 
 const pickrymDos = rymDos[Math.floor(Math.random()*rymDos.length)]
-console.log("RYM [2.2] - - - >", pickrymDos)
+console.log("RYM [1.2] - - - >", pickrymDos)
