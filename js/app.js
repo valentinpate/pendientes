@@ -7,7 +7,6 @@
 // Variables
 
 let body = document.getElementById("body")
-let descargasUnoYDos = document.getElementById("descargasUnoDos")
 
 const espacio = "- - - - -"
 
@@ -119,4 +118,3 @@ console.log("RYM [1.1] - - - >", pickrym)
 
 const pickrymDos = rymDos[Math.floor(Math.random()*rymDos.length)]
 console.log("RYM [1.2] - - - >", pickrymDos)
-
