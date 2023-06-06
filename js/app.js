@@ -7,6 +7,23 @@
 // Variables
 
 let body = document.getElementById("body")
+let resultadoUnoDos = document.querySelector("#descargasunoydos")
+let resultadoTres = document.getElementById("descargastres")
+let resultadoCuatro = document.getElementById("descargascuatro")
+let resultadoCincoUno = document.getElementById("descargascincouno")
+let resultadoCincoDos = document.getElementById("descargascincodos")
+let spotifyUno = document.getElementById("spotifyuno")
+let spotifyDosUno = document.getElementById("spotifydosuno")
+let spotifyDosDos = document.getElementById("spotifydosdos")
+let spotifyTresUno = document.getElementById("spotifytresuno")
+let spotifyTresDos = document.getElementById("spotifytresdos")
+let spotifyCuatroUno = document.getElementById("spotifycuatrouno")
+let spotifyCuatroDos = document.getElementById("spotifycuatrodos")
+let spotifyCincoUno = document.getElementById("spotifycincouno")
+let spotifyCincoDos = document.getElementById("spotifycincodos")
+let rymOne = document.getElementById("rymuno")
+let rymTwo = document.getElementById("rymdos")
+let btn = document.getElementById("btn")
 
 const espacio = "- - - - -"
 
@@ -18,7 +35,7 @@ const descargasCuatro = ["P.D. - Inweglos", "Babylon Joke - Giga", "Krankmusik -
 
 const descargasCincoUno = ["6.3 - Humeur & Molecules", "3tot - Ich und du", "A Guy Called Gerald - 28 Gun Bad Boy", "Alan Hawkshaw - Frontiers of Science", "Alfonia Tims and His Flying Tigers - Future Funk / Uncut!", "Alice Coltrane - Divine Songs", "Allan Holdsworth: FLATTire: Music for a Non Existent Movie", "Atahualpa Yupanqui - El hombre, el paisaje y su canción", "Baffo Banfi - Galaxy My Dear", "Bernard C - Lieu Magique", "Black Kray - 700 Dagreez", "Brahim Yilmaz", "C.C.C.C. - Rocket Shrine", "Camel - Camel", "Camel - Stationary Traveller", "Camel - Rajaz", "Charlemagne Palestine - Four Manifestations on Six Elements", "Chêne noir - Chant pour le Delta, la Lune et le Soleil", "Die Synthetische Republik - Faktor D", "Elend - Les Tenebres du Dehors", "Eroc - Eroc", "The Fast Set - Untitled", "Fluxion - Bipolar Defect", "From Nursery to Misery C90", "Gachet - Elite Sounds", "The Gadgets - Gadgetree", "Galdur - Age of Legends", "Georges Rodi - Actual", "Good with Parents", "Haku - Na Mele A Ka", "Heroic Viking - Ragnarök", "Insiememusicadiversa - Insiememusicadiversa", "Isao Tomita - Snowflakes are Dancing", "Jason Lescalleet ft. Graham Lambkin - The Breadwinner", "Jason Lescalleet - The Pilgrim", "K. Yoshimatu - Commercial Romanticists", "K. Yoshimatu - Sepia Reminiscence", "Kallous Boys - Kick It", "Karlheinz Stockhausen - Hymnen", "Key Sounds Label - Kanon Original Soundtrack", "Kitaro - Ten Kai", "Konk - Jams", "L.A.S.'s Crime - Inanitas", "La Peste - HL 026", "Lauri Paisley - Skywords", "Lord Nelson - Ah, Ha", "VICKI LEEKX - VICKI LEEKX", "MACROBLANK", "Merci la nuit - Merci la nuit", "Michael Garrison - In the Regions of Sunreturn", "Moebius", "Mokira - Cliphop", "Moon Wheel", "Nine Circles - Nine Circles", "Nova - Terranova", "NSRD - Kunsendorfs un Osendovskis", "Omni Trio The Deepest Cut Vol. 1", "on4road - In Rainbow Roads", "Open Graves Style - Fear", "Peste Noire - La Sanie des siècles - Panégyrique de la dégénérescence", "Pink Industry - Low Technology", "Plug - Drum 'N' Bass for Papa", "Pola - Pola Meets Lyrica", "Pure - Fetor", "Raquin", "Renaissance - Renaissance", "Reynols - Polos Mosco", "runescape.wav2", "Salaried Man Club - Gray Cross", "Salaried Man Club", "Sines of Exquisite Pleasure - Music for Hospitals", "Skee Mask - Compro", "Sumo Jungle Grandeur", "The Sperm - Shh!", "Steve Roden - Light Forms", "Vangelis - Blade Runner (Esper Edition)", "Out of Standard Deutschland Vol. 1 (Various Artists)"]
 
-const descargasCincoDos = ["Berthold Weis Band / Confidentiel Périodique", "Risky Business Soundtrack", "Vivian Stanshall - Sir Henry at Rawlinson End", "Walrus", "The Wicked Farleys - Make It It", "Bacchia Neraida", "Mahk - LV", "Yuri Morozov - The Inexplicable", "Battle Garegga OST", "Joe Hisashi", "Susumu Hirasawa - PHONON LIVE", "9.0Megathrust", "Nobue Kawana", "NEWS AT 11", "Ecophony Rinne", "Sharpnel vs Project Gabbangelion"]
+const descargasCincoDos = ["Berthold Weis Band / Confidentiel Périodique", "Risky Business Soundtrack", "Vivian Stanshall - Sir Henry at Rawlinson End", "Walrus", "The Wicked Farleys - Make It It", "Bacchia Neraida", "Mahk - LV", "Yuri Morozov - The Inexplicable", "Battle Garegga OST", "Joe Hisashi", "Susumu Hirasawa - PHONON LIVE", "Nobue Kawana", "NEWS AT 11", "Ecophony Rinne", "Sharpnel vs Project Gabbangelion"]
 
 const SpotifyOne = ["2003 Toyota Corolla", "Autechre - Tri Repetae", "Aziza Jalal", "black midi - Schlagenheim", "Mos Def & Talib Kwani - Black Star", "Bowery Electric - Beat", "Butthole Surfers - Psychic... Powerless... Another Man's Sac", "Carambolage", "Carly Rae Jepsen - Emotion", "Charly García - Say No More", "Cheshyre", "Cos - Viva Boma", "Daniel Johnston - Yip Jump Music", "Daniel Johnston - 1990", "Dead Kennedys - Frankenchrist", "Death - Human", "Depeche Mode - Violator", "DJ Screw - 3 in the Mornin' Part Two", "Don Salsa - Koolaide Moustache in Jonestown", "Doris Norton - Artificial Intelligence", "Super Discount", "Flema (Yin Yang)", "Frank Sinatra - Sings for Only the Lonely", "Frank Sinatra - Watertown", "German Shepherds - Music for Sick Queers", "Gil-Scott Heron - Pieces of a Man", "Giradioses - Dormitorio", "Haruomi Hosono - HOSONO HOUSE", "Hella - Hold Your Horse Is", "James Ferraro - Far Side Virtual", "Javiera Mena - Esquemas juveniles", "Lalleeshwari", "Lily Chou-Chou", "Spinetta - Kamikaze", "Manic Street Preachers - The Holy Bible", "Massive Attack - Blue Lines", "Mercedes Sosa - Con Sabor a Mercedes Sosa", "Michael Hoenig - Departure from the Northern Wasteland", "Milton Nascimento - Milton", "Milton Nascimento - Minas", "Milton Nascimento - Gerais", "Narcosis - Primera Dosis", "Nine Inch Nails - The Fragile", "Nortfalke - Atmosfeer", "Offermose - Stilhedens Tarn", "Paraf", "Philip Glass - Koyaanisqatsi", "Playboi Carti - Die Lit", "Polvo - Exploded Drawing", "The Product - Alive Again", "PSY - Psy from the Psycho World!", "Ross from Friends - Tread", "Rush - Moving Pictures", "Severed Heads - City Slab Horror", "Sheena Ringo (Taza)", "Sonic Dragolgo - My Sweet Honey Bunny", "Sparks - Kimono My Dear", "The Stalin - Stop Jap", "Nocturbulous Behavior - The Mix", "Type O Negative - Bloody Kisses", "The United States of America", "Van Morrison - Astral Weeks", "Yasuo Sugibayashi - The Mask of the Imperial Family", "ZaZa", "2+2=5, Into the Future...", "Angelo Badalamenti - Twin Peaks OST", "Automatic - Signal", "Biosphere - Substrata", "Belbury Poly - The Willows", "Brian Hodgson - KPM 1000", "Brian Eno - Ambient 4: On Land", "Ceres & Calypso", "Catherine Mercy", "The Cat's Miaow 94 - 98", "Cluster & Eno", "Croatian Amor - Genitalia Garden", "DAF - DAF", "Delroy Edwards - Hangin' at the Beach", "Detachments - Detachments", "Disasterpiece - Level", "Diseño Corbusier", "DJ Rozwell", "Dr. Alimantado - Best Dressed Chicken in Town"]
 
@@ -118,3 +135,20 @@ console.log("RYM [1.1] - - - >", pickrym)
 
 const pickrymDos = rymDos[Math.floor(Math.random()*rymDos.length)]
 console.log("RYM [1.2] - - - >", pickrymDos)
+
+descargasunoydos.innerHTML = pickUnoDos
+descargastres.innerHTML = pickTres
+descargascuatro.innerHTML = pickCuatro
+descargascincouno.innerHTML = pickCincoUno
+descargascincodos.innerHTML = pickCincoDos
+spotifyuno.innerHTML = pickSpotifyOne
+spotifydosuno.innerHTML = pickSpotifyTwoOne
+spotifydosdos.innerHTML = pickSpotifyTwoTwo
+spotifytresuno.innerHTML = pickSpotifyThreeOne
+spotifytresdos.innerHTML = pickSpotifyThreeTwo
+spotifycuatrouno.innerHTML = pickSpotifyFourOne
+spotifycuatrodos.innerHTML = pickSpotifyFourTwo
+spotifycincouno.innerHTML = pickSpotifyFiveOne
+spotifycincodos.innerHTML = pickSpotifyFiveTwo
+rymuno.innerHTML = pickrym
+rymdos.innerHTML = pickrymDos
